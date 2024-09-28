@@ -1,0 +1,8 @@
+[Unit]
+Description=VSFTP
+
+[Service]
+ExecStart=/usr/local/sbin/vsftpd
+Restart=always
+User=root
+Group=root
