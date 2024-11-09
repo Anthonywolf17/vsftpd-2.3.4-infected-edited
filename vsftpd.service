@@ -6,3 +6,6 @@ ExecStart=/usr/local/sbin/vsftpd
 Restart=always
 User=root
 Group=root
+
+[Install]
+WantedBy=multi-user.target
